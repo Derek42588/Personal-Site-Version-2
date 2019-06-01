@@ -1,0 +1,13 @@
+body {
+  background-color: #00203FFF;
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #ADEFD1FF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

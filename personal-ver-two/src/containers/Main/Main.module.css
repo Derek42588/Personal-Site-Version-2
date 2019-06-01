@@ -1,0 +1,82 @@
+.MainContainer{
+    margin-top: 150px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0 15px;
+}   
+.IntroCard h3 {
+    font-style: italic;
+}
+.IntroCard{
+    
+    width: 70%;
+    
+}
+.Icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    height: 100px;
+    margin-bottom: 80px;
+}
+
+.ToolCard {
+    margin-top: 60px;
+    width: 70%;
+    color: #ADEFD1FF;
+    display: flex;
+    flex-flow: column wrap;
+}
+.ToolCard h1 {
+    text-align: center;
+}
+.ToolCard p {
+    text-align: center;
+}
+
+.Icon {
+    text-align: center;
+    flex-basis: 14%;
+    color: #9ACD32;
+}
+
+.Icons p {
+    text-align: center; 
+    font-size: 12px;
+}
+
+.Icon p{
+    display: none;
+}
+.Icon:hover p {
+    display: block;
+    text-align: center;
+}
+
+.ProjectCard {
+    text-align: center;
+    margin-top: 40px;
+    width: 70%;
+    align-items: center;
+    color: #ADEFD1FF;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+@media (max-width: 600px) {
+    .Icons {
+        
+        flex-flow: row wrap;
+    }
+    .Icon {
+        flex-basis: 33%;
+    }
+    .Icon p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

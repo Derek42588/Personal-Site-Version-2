@@ -1,0 +1,72 @@
+.ImageSlide {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.ImageCard {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.Icon {
+    font-size: 60px;
+
+}
+.Clickers {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Clickers p {
+    flex-basis: 100%;
+}
+
+.Clickers .Button {
+    flex-basis: 35%;
+    color: #9ACD32;
+    text-decoration: none;
+}
+
+.Button {
+    position: relative;
+    width: 110px;
+    height: 30px;
+    padding: 5px;
+    background-color: #000022;
+    border: 1px solid #00ecf0;
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.SlideInfo {
+    margin-top: 30px;
+    width: 100%;
+}
+.Tools {
+    color: #9ACD32;
+}
+.Icon:hover {
+    box-shadow: 2px 2px 2px 2px black;
+}
+.ImageSlide img {
+    max-width: 70%;
+}
+
+@media (max-width: 600px) {
+    .SlideInfo {
+        font-size: 14px;
+    }
+}
+
